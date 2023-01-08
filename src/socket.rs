@@ -2,7 +2,7 @@ use crate::packet::TCPPacket;
 use crate::tcpflags;
 use anyhow::{Context, Result};
 use pnet::packet::ip::IpNextHeaderProtocols;
-use pnet::packet::{ip::IpNextHeaderProtocol, Packet};
+use pnet::packet::Packet;
 use pnet::transport::{self, TransportChannelType, TransportProtocol, TransportSender};
 use pnet::util;
 use std::collections::VecDeque;
